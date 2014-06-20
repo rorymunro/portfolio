@@ -1,0 +1,137 @@
+@import "bootstrap";
+$grayMediumLight: #eaeaea;
+/* site wide */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+    background-image: image-url('moii.JPG');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.container {
+	
+}
+
+#right {
+    padding-left: 80px;
+    padding-top: 100px;
+	h4 {
+    color: white;
+    font-weight: 400;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 1.4em;
+	text-shadow: 0px 1px 1px black;
+	
+}
+
+   .btn {
+     font-family: Tahoma, Verdana, Segoe, sans-serif;
+     border-radius: 3px;
+     background:none;
+     text-shadow: 0px 1px 1px black;
+     margin-left: 7px;
+     margin-top: 40px;
+     color: white;
+     box-shadow: 0px 1px 2px;
+     &:hover{
+       background: white;
+       color:black;
+     }
+   }
+}
+
+
+
+#logr {
+    
+	float: left;
+	font-size: 3.5em;
+	color: white;
+	letter-spacing: -1px;
+	padding-top: 8px;
+	font-weight: 700;
+	line-height: 1;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	text-shadow:0px 1px 2px black;
+	
+
+	&:hover{
+	color: black;
+	text-shadow:0px 2px 3px gray;
+	text-decoration: none;
+	}
+}
+
+.navbar-inner {
+	background: none;
+	border: none;
+	position: fixed;
+}
+
+
+
+
+#site {
+	margin-top: 80px;
+	
+}
+
+#about {
+	margin-top: 500px;
+	border-bottom: 1px solid gray;
+	
+	
+  p {
+    font-size: 1.3em;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 40px;
+  }
+} 
+
+#head {
+	font-size: 3.3em;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #653F03;
+	margin-bottom:10px;
+	text-shadow: 0px 1px 1px black;
+}
+
+#work {
+	font-size: 4.3em;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #653F03;
+	margin-bottom: 70px;
+	text-shadow: 0px 1px 1px black;
+}
+
+.span6 {
+
+  h5{
+    font-size: 1.3em;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	margin-top: 60px;
+  }
+}
+
+#breaks {
+    margin-top: 60px;
+    margin-bottom: 60px;
+	border-bottom: 1px solid;
+}
+
+#contact {
+    margin-top: 30px;
+    margin-bottom: 140px;
+	p{
+	margin-top: 30px;
+	font-size: 1.3em;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	}
+}
