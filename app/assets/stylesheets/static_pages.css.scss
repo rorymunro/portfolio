@@ -18,8 +18,8 @@ body {
 }
 
 #right {
-    padding-left: 80px;
-    padding-top: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
 	h4 {
     color: white;
     font-weight: 400;
@@ -31,16 +31,17 @@ body {
 
    .btn {
      font-family: Tahoma, Verdana, Segoe, sans-serif;
-     border-radius: 3px;
+     border-radius: 4px;
      background:none;
      text-shadow: 0px 1px 1px black;
      margin-left: 7px;
      margin-top: 40px;
      color: white;
-     box-shadow: 0px 1px 2px;
+     box-shadow: 0px 1px 1px;
      &:hover{
        background: white;
-       color:black;
+       color: black;
+       
      }
    }
 }
@@ -77,12 +78,12 @@ body {
 
 
 #site {
-	margin-top: 80px;
+	margin-top: 120px;
 	
 }
 
 #about {
-	margin-top: 500px;
+	margin-top: 600px;
 	border-bottom: 1px solid gray;
 	
 	
@@ -128,7 +129,7 @@ body {
 
 #contact {
     margin-top: 30px;
-    margin-bottom: 140px;
+    margin-bottom: 240px;
 	p{
 	margin-top: 30px;
 	font-size: 1.3em;
